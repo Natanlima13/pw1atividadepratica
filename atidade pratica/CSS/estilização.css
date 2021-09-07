@@ -1,0 +1,89 @@
+
+@font-face {
+    font-family:SpaceMono-italic;
+    src: url("../fonte/SpaceMono-Italic.ttf");
+
+}
+
+html{
+    background: url(../imagens/fundo1.jpg!d);
+    background-size:cover;
+    font-family: SpaceMono-italic;
+    
+}
+.titulo {
+    background-color: rgb(212, 212, 212);
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid;
+    text-align: center;
+    border-color: rgb(12, 12, 12);
+    margin-top: 20px;
+    
+}
+.subtitulo {
+    background-color: rgb(212, 212, 212);
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid;
+    text-align: center;
+    border-color: rgb(22, 22, 22);
+    margin-top: 20px;
+    
+}
+.container{
+    margin:0 auto ;
+    width: 1000px;
+    }
+    .bloco{
+        background-color: rgb(212, 212, 212);
+        border-color: rgb(0, 0, 0);
+        border: 3px solid;
+        margin-top: 20px;
+        border-radius: 15px;
+        padding: 10px; 
+        /* height: 200px; */
+    }
+    .bloco img{
+        border:2px solid rgb(12, 12, 12);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    float: right;
+    width: 300px;
+    
+    }
+    .bloco1 img{
+        border:2px solid rgb(12, 12, 12);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    float: right ;
+    width: 500px;
+    background-color: rgb(212, 212, 212);
+    
+    }
+    .blocoM{
+        background-color: rgb(212, 212, 212);
+        border-color: rgb(0, 0, 0);
+        border: 3px solid;
+        margin-top: 20px;
+        border-radius: 15px;
+        padding: 10px; 
+        width: 450px;
+    }
+.bloco a {
+    color: teal;
+    font-weight: bold;
+    text-decoration: none;
+}
+.bloco a:hover{
+    color: royalblue;
+    text-decoration: tomato;
+    padding: 1px;
+    background-color: springgreen;
+} 
+.bloco video{
+    height: 450px;
+    padding: 5px;
+}
